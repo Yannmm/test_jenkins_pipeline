@@ -1,5 +1,5 @@
 pipeline {
-    agent { label 'flutter' }
+    agent { label 'automation-agent' }
 
     stages {
         stage('Check Emulator') {
